@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.gmscompat;
+package com.android.internal.util.derp.gmscompat;
 
 import android.app.Application;
 import android.os.Build;
