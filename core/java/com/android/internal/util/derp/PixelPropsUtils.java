@@ -173,8 +173,7 @@ public class PixelPropsUtils {
             }
         }
         if (sIsGms) {
-                setPropValue("FINGERPRINT", "google/angler/angler:6.0/MDB08L/2343525:user/release-keys");
-                setPropValue("MODEL", "angler");
+                setPropValue("MODEL", Build.MODEL + " ");
         }
         // Set proper indexing fingerprint
         if (packageName.equals("com.google.android.settings.intelligence")) {
